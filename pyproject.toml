@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "estruturando-projeto"
+version = "0.1.0"
+description = "Meu projeto ETL"
+authors = ["Vitor Darci da SIlva"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
